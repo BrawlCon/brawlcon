@@ -10,3 +10,5 @@ For website reports like typos or bad formatting, please submit an issue in this
 
 
 [![Discord Bots](https://top.gg/api/widget/status/818997191648477225.svg)](https://top.gg/bot/818997191648477225)
+
+[![Discord Bots](https://top.gg/api/widget/status/816445913035309061.svg)](https://top.gg/bot/816445913035309061)
