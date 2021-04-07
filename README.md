@@ -9,6 +9,4 @@ For website reports like typos or bad formatting, please submit an issue in this
 ##### Thank you for visiting my website and I hope it helps you in Brawl Stars!
 
 
-<a href="https://top.gg/bot/818997191648477225">
-    <img src="https://top.gg/api/widget/818997191648477225.svg" alt="ConEconomy" />
-</a>
+[![Discord Bots](https://top.gg/api/widget/status/818997191648477225.svg)](https://top.gg/bot/818997191648477225)
