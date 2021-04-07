@@ -7,3 +7,9 @@ This repository is used for the BrawlCon.com website domain that features Brawl 
 For website reports like typos or bad formatting, please submit an issue in this repository so we can fix it ASAP. 
 
 ##### Thank you for visiting my website and I hope it helps you in Brawl Stars!
+
+
+string widgetUrl = new SmallWidgetOptions()
+	.SetType(WidgetType.OWNER)
+	.SetLeftColor(255, 255, 255)
+	.Build(818997191648477225);
