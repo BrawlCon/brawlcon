@@ -104,6 +104,7 @@ h1 {
   <a href="/guides">Guides</a>
   |
   <a href="https://docs.brawlcon.com">Docs</a>
+  |
 </div>
 <body>
 <div class="bg-image"></div>
@@ -114,10 +115,20 @@ h1 {
 </body>
     </div>
 <div class="footer">
-<p>Copyright Con Co. & BrawlCon <hr><a target="_blank" | <a target="_blank" href="./resources">Resources</a> | <a target="_blank" href="./bot">Discord Bot</a> | <select name="forma" onchange="location = this.value;">
+<p>Copyright Con Co. & BrawlCon <hr><a target="_blank" | <a target="_blank" href="./resources">Resources</a> | <a target="_blank" href="./bot">Discord Bot</a> | <select  name="forma" onchange="location = this.value;">
     <option value="./">BrawlCon</option>
     <option value="https://comicserver.org">ComicServer</option>
-    <option value="https://joecarey.com">Joe Carey</option>
-</select></p>
+    <option value="https://joecarey.com">Joe Carey</option> | </select></p>
+<input type="text" value="ssgaming.aternos.me" id="myInput">
+<button onclick="myFunction()">Copy text</button>
+<script>
+function myFunction() {
+  var copyText = document.getElementById("myInput");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+  alert("Copied to clipboard: " + copyText.value);
+}
+</script>
 </div>
 </html>
