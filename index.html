@@ -98,8 +98,13 @@ font-weight:900
 }
 </style>
 </head>
+<script>
+function myFunction() {
+  alert("Logging in is currently disabled!");
+}
+</script>
 <div class="topnav">
-  <a href="/login">Login</a>
+  <a onclick="myFunction()">Login</a>
   |
   <a class="active" href="./">Home</a>
   |
@@ -122,3 +127,4 @@ font-weight:900
     <option value="https://joecarey.com">Joe Carey</option> | </select></p>
 </div>
 </html>
+
