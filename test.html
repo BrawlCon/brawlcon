@@ -1,4 +1,4 @@
 window.onbeforeunload = function() {
     websocket.onclose = function () {}; // disable onclose handler first
-    websocket.close();
+    websocket.close(1001);
 };
